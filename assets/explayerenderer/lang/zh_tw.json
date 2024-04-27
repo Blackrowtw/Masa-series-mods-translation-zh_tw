@@ -1,0 +1,78 @@
+{
+  "config.explayerenderer.title": "額外玩家渲染設定",
+  "config.explayerenderer.general": "總體",
+
+  "config.explayerenderer.enabled": "啟用模組",
+  "config.explayerenderer.open_menu_key": "打開設定面板",
+  "config.explayerenderer.spectator_auto_switch": "旁觀者自動切換",
+  "config.explayerenderer.player_name": "渲染玩家名",
+  "config.explayerenderer.offset_x": "X軸偏移",
+  "config.explayerenderer.offset_y": "Y軸偏移",
+  "config.explayerenderer.rotation_x": "X軸旋轉",
+  "config.explayerenderer.rotation_y": "Y軸旋轉",
+  "config.explayerenderer.rotation_z": "Z軸旋轉",
+  "config.explayerenderer.size": "大小",
+  "config.explayerenderer.mirror": "鏡像",
+
+  "config.explayerenderer.enabled.desc": "本模組是否啟用",
+  "config.explayerenderer.open_menu_key.desc": "打開設定菜單的按鍵",
+  "config.explayerenderer.spectator_auto_switch.desc": "旁觀者模式下自動切換實體模型\n\n打開後會覆蓋§2渲染玩家名§r的功能",
+  "config.explayerenderer.player_name.desc": "被渲染實體的玩家名，默認是你自己的",
+  "config.explayerenderer.offset_x.desc": "X軸偏移",
+  "config.explayerenderer.offset_y.desc": "Y軸偏移",
+  "config.explayerenderer.rotation_x.desc": "X軸旋轉",
+  "config.explayerenderer.rotation_y.desc": "Y軸旋轉",
+  "config.explayerenderer.rotation_z.desc": "Z軸旋轉",
+  "config.explayerenderer.size.desc": "渲染大小",
+  "config.explayerenderer.mirror.desc": "將渲染模型水平鏡像",
+
+  "config.explayerenderer.postures": "姿態",
+
+  "config.explayerenderer.pose_offset_method": "姿態修正方法",
+  "config_option.explayerenderer.pose_offset_method.auto": "自動",
+  "config_option.explayerenderer.pose_offset_method.manual": "手動",
+  "config_option.explayerenderer.pose_offset_method.force_standing": "強制站立",
+  "config_option.explayerenderer.pose_offset_method.disabled": "關閉",
+  "config.explayerenderer.sneaking_y_offset": "潛行Y軸修正",
+  "config.explayerenderer.swim_crawl_y_offset": "游泳/爬行Y軸修正",
+  "config.explayerenderer.elytra_y_offset": "鞘翅Y軸修正",
+
+  "config.explayerenderer.pose_offset_method.desc": "在玩家處於不同姿態時修正玩家位置的方法\n\n§e自動§r\n    根據生物眼睛位置調整高度\n§e手動§r\n    手動設定潛行、游泳、鞘翅和爬行的修正\n§e強制站立§r\n    只渲染站立姿態\n§e關閉§r\n    不進行修正",
+  "config.explayerenderer.sneaking_y_offset.desc": "玩家潛行時的Y軸修正距離\n\n只在§a姿態修正方法§r為§e手動§r時有效",
+  "config.explayerenderer.swim_crawl_y_offset.desc": "玩家游泳或爬行時的Y軸修正距離\n\n只在§a姿態修正方法§r為§e手動§r時有效",
+  "config.explayerenderer.elytra_y_offset.desc": "玩家使用鞘翅飛行時的Y軸修正距離\n\n只在§a姿態修正方法§r為§e手動§r時有效",
+
+  "config.explayerenderer.rotations": "旋轉",
+
+  "config.explayerenderer.pitch_min": "最小俯角",
+  "config.explayerenderer.pitch_max": "最大俯角",
+  "config.explayerenderer.pitch_offset": "俯角修正",
+  "config.explayerenderer.head_yaw_min": "最小頭部偏航角",
+  "config.explayerenderer.head_yaw_max": "最大頭部偏航角",
+  "config.explayerenderer.body_yaw_min": "最小身體偏航角",
+  "config.explayerenderer.body_yaw_max": "最大身體偏航角",
+
+  "config.explayerenderer.pitch_min.desc": "最小俯角",
+  "config.explayerenderer.pitch_max.desc": "最大俯角",
+  "config.explayerenderer.pitch_offset.desc": "俯角修正",
+  "config.explayerenderer.head_yaw_min.desc": "最小頭部偏航角",
+  "config.explayerenderer.head_yaw_max.desc": "最大頭部偏航角",
+  "config.explayerenderer.body_yaw_min.desc": "最小身體偏航角",
+  "config.explayerenderer.body_yaw_max.desc": "最大身體偏航角",
+
+  "config.explayerenderer.details": "細節",
+
+  "config.explayerenderer.hurt_flash": "顯示受傷閃爍",
+  "config.explayerenderer.swing_hands": "顯示手臂擺動",
+  "config.explayerenderer.light_degree": "光照角度",
+  "config.explayerenderer.use_world_light": "使用世界光",
+  "config.explayerenderer.world_light_min": "最小世界光",
+  "config.explayerenderer.render_vehicle": "渲染坐騎",
+
+  "config.explayerenderer.hurt_flash.desc": "玩家受傷時是否有紅色閃爍",
+  "config.explayerenderer.swing_hands.desc": "玩家破壞方塊時是否會有手臂揮動效果",
+  "config.explayerenderer.light_degree.desc": "產生陰影效果的光照角度",
+  "config.explayerenderer.use_world_light.desc": "是否使用世界中的光照等級來渲染",
+  "config.explayerenderer.world_light_min.desc": "打開§2使用世界光§r時的亮度下限",
+  "config.explayerenderer.render_vehicle.desc": "渲染身下的坐騎，§a姿態修正方法§r為§e強制站立§r時無效"
+}
