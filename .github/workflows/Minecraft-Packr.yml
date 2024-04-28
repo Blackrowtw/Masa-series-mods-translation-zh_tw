@@ -10,17 +10,16 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "check-bats-version"
-  check-bats-version:
+  packing:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-      - name: Build & Upload Packs
-        uses: Sindercube/Packr@v2
-        with:
-
-          github-repo: ${{ github.event.repository.full_name }}
-          release-version: ${{ github.event.release.tag_name }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Zip directories
+        run: |
+          mkdir dist
+          cp -r java/pack dist/java
+          cd dist/java
+          zip -0 -r ../PBR-JG.zip .
