@@ -22,4 +22,4 @@ jobs:
           mkdir dist
           cp -r java/pack dist/java
           cd dist/java
-          zip -0 -r ../PBR-JG.zip .
+          zip -0 -r ../Translation-zh_tw-of-masa-series-mods.zip .
