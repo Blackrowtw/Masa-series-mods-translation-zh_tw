@@ -1,0 +1,137 @@
+{
+  "key.isometric-renders.area_select": [
+    "",
+    {"text": "[", "color": "dark_gray"},
+    {"text": "I", "color": "#00c9f1"},
+    {"text": "S", "color": "#00f1c7"},
+    {"text": "O", "color": "#00f195"},
+    {"text": "]", "color": "dark_gray"},
+    " 選擇區域"
+  ],
+
+  "gui.isometric-renders.animations": "運行動畫 (Tick)",
+  "gui.isometric-renders.particles": "顯示粒子 (需要外部渲染器)",
+  "gui.isometric-renders.use_external_renderer": "使用外部渲染器",
+  "gui.isometric-renders.dump_into_root": "直接匯出到根目錄",
+  "gui.isometric-renders.overwrite_latest": "覆蓋最新文件",
+  "gui.isometric-renders.export": "匯出",
+  "gui.isometric-renders.export_to_clipboard": "剪貼簿",
+  "gui.isometric-renders.open_folder": "打開資料夾",
+  "gui.isometric-renders.copied_to_clipboard": "匯出至剪貼簿",
+  "gui.isometric-renders.exported_as": "匯出為: ",
+  "gui.isometric-renders.animation_saved": "動畫已保存至: ",
+  "gui.isometric-renders.converting_image_sequence": "正在將圖片序列轉換為目標格式",
+
+  "gui.isometric-renders.scale": "比例",
+  "gui.isometric-renders.rotation": "旋轉",
+  "gui.isometric-renders.slant": "傾斜",
+  "gui.isometric-renders.light_angle": "光線角度",
+  "gui.isometric-renders.rotation_speed": "旋轉速度",
+  "gui.isometric-renders.dimetric": "二等斜視圖",
+  "gui.isometric-renders.isometric": "等斜視圖",
+
+  "gui.isometric-renders.atlas_options": "圖集選項",
+  "gui.isometric-renders.columns": "列數",
+
+  "gui.isometric-renders.select_item_batch": "物品批次",
+  "gui.isometric-renders.select_block_batch": "方塊批次",
+  "gui.isometric-renders.select_atlas": "圖集",
+
+  "gui.isometric-renders.select_batch_operation": "選擇批次操作",
+  "gui.isometric-renders.render_task_size": "待渲染項目數: %s",
+
+  "gui.isometric-renders.animation_options": "動畫選項",
+  "gui.isometric-renders.animation_frames": "動畫幀數",
+  "gui.isometric-renders.animation_framerate": "動畫幀率",
+  "gui.isometric-renders.export_animation": "匯出動畫",
+  "gui.isometric-renders.exporting": "正在匯出...",
+  "gui.isometric-renders.converting": "正在轉換...",
+  "gui.isometric-renders.export_remaining_frames": "剩餘幀數: %d",
+  "gui.isometric-renders.format.mp4": "MP4",
+  "gui.isometric-renders.format.apng": "APNG",
+  "gui.isometric-renders.format.gif": "GIF",
+  "gui.isometric-renders.detecting_ffmpeg": "正在檢測 FFmpeg...",
+  "gui.isometric-renders.no_ffmpeg_1": "未檢測到 FFmpeg",
+  "gui.isometric-renders.no_ffmpeg_2": "請從以下網址下載",
+  "gui.isometric-renders.no_ffmpeg_3": "https://ffmpeg.org/download.html",
+  "gui.isometric-renders.vram": "預估 VRAM 使用量: %s/%sMB (%s)",
+  "gui.isometric-renders.ram": "預估 RAM 使用量: %s/%sMB (%s)",
+  "gui.isometric-renders.vram_ignore": "Shift-點擊忽略",
+  "gui.isometric-renders.no_vram_info_warning": "無法確定可用的 VRAM",
+
+  "gui.isometric-renders.transform_options": "變換選項",
+  "gui.isometric-renders.presets": "預設",
+  "gui.isometric-renders.lighting_profile": "燈光設定",
+
+  "gui.isometric-renders.entity_pose": "實體姿勢",
+  "gui.isometric-renders.entity_pose.yaw": "偏航角",
+  "gui.isometric-renders.entity_pose.pitch": "俯仰角",
+
+  "gui.isometric-renders.render_options": "渲染選項",
+  "gui.isometric-renders.background_color": "背景顏色",
+  "gui.isometric-renders.export_options": "導出選項",
+  "gui.isometric-renders.renderer_resolution": "導出分辨率",
+  "gui.isometric-renders.hotkeys": "F10: 切換介面  F12: 導出",
+
+  "gui.isometric-renders.memory_warning1": "警告: 除非你有至少 6GB ",
+  "gui.isometric-renders.memory_warning2": "的內存可供 Minecraft 使用，",
+  "gui.isometric-renders.memory_warning3": "否則不建議使用超過 8192x8192 的",
+  "gui.isometric-renders.memory_warning4": "分辨率，以確保你的計算機正常運行。",
+  "gui.isometric-renders.memory_warning5": "",
+
+  "gui.isometric-renders.mesh_controls": "網格控制",
+  "gui.isometric-renders.mesh_status": "狀態: ",
+  "gui.isometric-renders.mesh_building": "正在構建 - %d%%",
+  "gui.isometric-renders.mesh_rebuilding": "正在重建 - %d%%",
+  "gui.isometric-renders.mesh_corrupt": {"text": "損壞 - 請回報", "color": "red"},
+  "gui.isometric-renders.mesh_ready": "就緒",
+  "gui.isometric-renders.freeze_entities": "凍結實體",
+  "gui.isometric-renders.rebuild_mesh": "重建網格",
+
+  "gui.isometric-renders.exporter.idle": "導出器閒置",
+  "gui.isometric-renders.exporter.jobs": "導出任務: %s",
+
+  "gui.isometric-renders.batch.remaining": "剩餘: %d/%d",
+  "gui.isometric-renders.batch.start": "開始",
+  "gui.isometric-renders.batch.reset": "重置",
+  "gui.isometric-renders.batch.controls": "批次控制",
+
+  "gui.isometric-renders.hud.area_selection": "區域選擇",
+  "gui.isometric-renders.hud.area_selection.from": [
+    {"text": "起始: "},
+    {"index": 0, "color": "gray"}
+  ],
+  "gui.isometric-renders.hud.area_selection.to": [
+    {"text": "結束: "},
+    {"index": 0, "color": "gray"}
+  ],
+  "gui.isometric-renders.hud.area_selection.clear_hint": [
+    {"text": "Shift-點擊以清除", "color": "gray"}
+  ],
+
+  "gui.isometric-renders.click_to_open": [
+    "",
+    {"text": "! ", "color": "gray", "bold": true},
+    "點擊以打開"
+  ],
+
+  "message.isometric-renders.no_block": "你未對準方塊",
+  "message.isometric-renders.no_entity": "你未對準實體",
+  "message.isometric-renders.incomplete_selection": "你尚未完成區域選擇",
+  "message.isometric-renders.no_such_namespace": "未知的命名空間",
+
+  "message.isometric-renders.player_rendering_in_multiplayer": "僅支援單人遊戲中的按名稱渲染玩家",
+
+  "message.isometric-renders.custom_lighting": "§a自定義燈光: §7[§c%1$s §a%1$s §b%1$s§7]",
+  "message.isometric-renders.current_profile": "當前設定: %1$s",
+  "message.isometric-renders.lighting_profile_updated": "§a燈光設定已更新",
+  "message.isometric-renders.unsafe_enabled": "§c已啟用不安全模式§7。謹慎操作",
+  "message.isometric-renders.unsafe_disabled": "§a已禁用不安全模式§7",
+
+  "message.isometric-renders.version": "運行 Isometric Renders v%s",
+  "message.isometric-renders.command_hint": "提示: 查看 Wiki 以了解子命令及其功能",
+
+  "message.isometric-renders.selection_cleared": "§7[§c已清除選擇區域§7]",
+  "message.isometric-renders.selection_started": "§7[§a已開始選擇區域§7]",
+  "message.isometric-renders.selection_finished": "§7[§a已完成選擇區域§7]"
+}
