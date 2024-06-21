@@ -4,7 +4,7 @@
     "malilib.config.comment.keybind_settings.allow_extra_keys": "是否允許一個按鍵綁定多個功能",
     "malilib.config.comment.keybind_settings.cancel_further": "取消對最後按下的快捷鍵的進一步（原版）處理 \n當綁定的鍵觸發時",
     "malilib.config.comment.keybind_settings.context": "選擇快捷鍵在什麼範圍內能夠響應",
-    "malilib.config.comment.keybind_settings.exclusive": "If true, then no other keybinds can have\nbeen activated before the keybind in question.\nThis check resets when all keys are released",
+    "malilib.config.comment.keybind_settings.exclusive": "在該選項開啟的情況下，則其他非設定之按鍵被按下時\n此功能將不被開啟",
     "malilib.config.comment.keybind_settings.order_sensitive": "綁定的按鍵是否需要按照特定順序按下",
 
     "malilib.error.failed_to_create_directory": "建立目錄 '%s' 失敗",

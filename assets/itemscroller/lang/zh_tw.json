@@ -149,7 +149,7 @@
 	"The interval in game ticks the massCraft operation is repeated at":"每 Tick 中批次合成的次數",
 	"massCraftIterations":"MassCraftIterations | 批次合成嘗試",
 	"How many massCraft iterations/attempts to do per execution.\nWith unstackable items or a full inventory and \"small recipe\"\nthis will need to be larger, as a shift + click craft to the inventory\nmight only craft 1 or 2 items per operation.":"設定每次執行多少次批次合成的疊代或者嘗試 \n當玩家合成不可堆疊的物品時或背包已經滿了的時候這類情況 \n這將需要玩家擁有更大的背包空間 \n因為使用 Shift 單擊合成時 \n背包中可能只進行 1 或 2 次合成操作",
-	"massCraftSwapsOnly":"massCraftSwapsOnly | 批次合成新方法",
+	"massCraftSwapsOnly":"MassCraftSwapsOnly | 批次合成新方法",
 	"Uses a newer method of filling the crafting grid,\nusing only swap slot packets.\n\nNote: Due to only using slot swap packets,\nno partial crafts are possible! And also no\nstack splitting will happen, at all.":"使用新的方法填充配方 GUI \n只使用 slot swap packets（槽位交換包)\n注意:由於只使用槽位交換包,不可能有部分的合成!\n而且也不會發生整組物品拆開的現象",
 	"useRecipeCaching":"RecipeCaching | 使用配方快取",
 	"Enables caching the last used recipe in the crafting\nrecipe output item fetching code. This can help a lot\nwith lowering CPU usage when mass crafting stuff.":"在合成配方操作獲取輸出項時的參數中 \n傳遞快取中最後使用的配方參數\n當大量製作物品時 這可以大大降低 CPU 使用率",

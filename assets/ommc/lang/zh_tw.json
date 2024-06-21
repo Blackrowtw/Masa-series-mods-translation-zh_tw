@@ -80,7 +80,7 @@
   "ommc.config.lists.moveDownInScaffoldingWhiteList.name": "DownScaffolding | 鷹架下降白名單",
   "ommc.config.lists.moveDownInScaffoldingWhiteList.comment": "如果開啟 §6禁止在鷹架中下降§r 玩家手中拿著 §6在鷹架中下降白名單§r 中的物品時才能在鷹架下降",
   "ommc.config.lists.worldEaterMineHelperWhitelist.name": "WorldEaterMinerWhitelist | 挖礦白名單",
-  "ommc.config.lists.worldEaterMineHelperWhitelist.comment": "如果開啟 §6世吞挖礦助手白名單§r 當 §6世吞挖礦助手白名單§r 中的方塊暴露在空氣中時 客戶端會在它們上方渲染出自己的鏡像 方便世吞運維以及挖礦",
+  "ommc.config.lists.worldEaterMineHelperWhitelist.comment": "如果開啟 §6世吞挖礦助手白名單§r 當 §6世吞挖礦助手白名單§r 中的方塊暴露在空氣中時\n客戶端會在它們上方渲染出自己的鏡像 方便世吞運維以及挖礦",
   "ommc.config.advanced_integrated_server.onlineMode.name": "OnlineMode | 正版驗證",
   "ommc.config.advanced_integrated_server.onlineMode.comment": "本地伺服器開啟正版驗證",
   "ommc.config.advanced_integrated_server.pvp.name": "PVP | 開啟PVP",
