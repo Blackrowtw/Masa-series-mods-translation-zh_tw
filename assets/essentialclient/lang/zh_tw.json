@@ -107,7 +107,7 @@
   "essentialclient.swapInventories.name": "交換物品欄",
   "essentialclient.gameRule.set": "將遊戲規則 %s 設置為 %s",
   "essentialclient.command.noArguments": "檢索參數失敗，有關詳細信息請參閱日誌",
-  "essentialclient.command.enumNotFound": "找不到枚舉元素： %s",
+  "essentialclient.command.enumNotFound": "找不到列表元素： %s",
   "essentialclient.clientUpdater.unknown": "您有一個未知版本的EssentialClient，無法更新！",
   "essentialclient.clientUpdater.upToDate": "您已經瞭解了EssentialClient的最新信息！",
   "essentialclient.clientUpdater.noVersions": "找不到更新的版本",

@@ -22,5 +22,5 @@
   "syncmatica.error.share_incompatible_schematic": "使用主菜單中的原理圖管理器轉換該文件，以分享該文件",
   "syncmatica.error.invalid_file": "不能共享這種類型的文件",
   "syncmatica.error.failed_to_load": "§4從 litematic 載入失敗§r : {}",
-  "syncmatica.success.modification_accepted": "§2接受修改的請求§r--再次鎖定展示位置，將結果分享給服務器"
+  "syncmatica.success.modification_accepted": "§2接受修改的請求§r--再次鎖定展示位置，將結果分享給伺服器"
 }
