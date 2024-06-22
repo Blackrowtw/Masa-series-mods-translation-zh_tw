@@ -44,7 +44,11 @@
 
 > 按資料夾內順序
 
-### 1. [essentialclient](https://modrinth.com/mod/essentialclient "") ^[Carpet附屬mod、clientscript、ChunkDebug] 作者：[senseiwells](https://github.com/senseiwells)
+### 1. [essentialclient](https://modrinth.com/mod/essentialclient "")
+
+#### Carpet附屬mod、clientscript、ChunkDebug
+
+作者：[senseiwells](https://github.com/senseiwells)
 
 <details>
 <summary>詳細資料</summary>
@@ -58,7 +62,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 2. [explayerenderer](https://modrinth.com/mod/extraplayerrenderer "") ^[額外玩家渲染] 作者：[禄存天玑](https://space.bilibili.com/2117299?spm_id_from=333.337.0.0)
+### 2. [explayerenderer](https://modrinth.com/mod/extraplayerrenderer "")
+
+#### 額外玩家渲染
+
+作者：[禄存天玑](https://space.bilibili.com/2117299?spm_id_from=333.337.0.0)
 
 <details>
 <summary>詳細資料</summary>
@@ -71,7 +79,10 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 3. [itemscroller](https://www.curseforge.com/minecraft/mc-mods/item-scroller "") ^[物品滾輪、批量合成] 作者：[masady](https://www.curseforge.com/members/masady/projects)
+### 3. [itemscroller](https://www.curseforge.com/minecraft/mc-mods/item-scroller "")
+#### 物品滾輪、批量合成
+
+作者：[masady](https://www.curseforge.com/members/masady/projects)
 
 <details>
 <summary>詳細資料</summary>
@@ -84,7 +95,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 4. [litematica](https://www.curseforge.com/minecraft/mc-mods/litematica "") ^[投影、小木棍] 作者：[masady](https://www.curseforge.com/members/masady/projects)
+### 4. [litematica](https://www.curseforge.com/minecraft/mc-mods/litematica "")
+
+#### 投影、小木棍
+
+作者：[masady](https://www.curseforge.com/members/masady/projects)
 
 <details>
 <summary>詳細資料</summary>
@@ -98,7 +113,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 5.  [magiclib](https://github.com/Hendrix-Shen/MagicLib "") ^[OMMC：gadget依賴] 作者：[plusls](https://space.bilibili.com/6400543/)、[Hendrix-Shen](https://github.com/Hendrix-Shen)
+### 5.  [magiclib](https://github.com/Hendrix-Shen/MagicLib "")
+
+#### OMMC、gadget、tweakmyclient 模組依賴
+
+作者：[plusls](https://space.bilibili.com/6400543/)、[Hendrix-Shen](https://github.com/Hendrix-Shen)
 
 <details>
 <summary>詳細資料</summary>
@@ -109,7 +128,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 6. [malilib](https://www.curseforge.com/minecraft/mc-mods/malilib "") ^[masa-mods依賴] 作者：[masady](https://www.curseforge.com/members/masady/projects)
+### 6. [malilib](https://www.curseforge.com/minecraft/mc-mods/malilib "")
+
+#### masa-series-mods 依賴
+
+作者：[masady](https://www.curseforge.com/members/masady/projects)
 
 <details>
 <summary>詳細資料</summary>
@@ -121,7 +144,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 7. [masa_gadget_mod](https://modrinth.com/mod/masa-gadget "") ^[渲染村民交易] 作者：[plusls](https://space.bilibili.com/6400543/)、[Hendrix-Shen](https://github.com/Hendrix-Shen)
+### 7. [masa_gadget_mod](https://modrinth.com/mod/masa-gadget "")
+
+#### 渲染村民交易
+
+作者：[plusls](https://space.bilibili.com/6400543/)、[Hendrix-Shen](https://github.com/Hendrix-Shen)
 
 <details>
 <summary>詳細資料</summary>
@@ -134,7 +161,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 8. [minihud](https://www.curseforge.com/minecraft/mc-mods/minihud "") ^[迷你HUD、加載球面] 作者：[masady](https://www.curseforge.com/members/masady/projects)、[Hendrix-Shen](https://github.com/Hendrix-Shen)
+### 8. [minihud](https://www.curseforge.com/minecraft/mc-mods/minihud "")
+
+#### 迷你HUD、顯示刷怪球面
+
+作者：[masady](https://www.curseforge.com/members/masady/projects)、[Hendrix-Shen](https://github.com/Hendrix-Shen)
 
 <details>
 <summary>詳細資料</summary>
@@ -147,7 +178,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 9. [ommc](https://github.com/plusls/oh-my-minecraft-client "") ^[世吞小助手] 作者：[plusls](https://space.bilibili.com/6400543/) 
+### 9. [ommc](https://github.com/plusls/oh-my-minecraft-client "")
+
+#### Oh My Minecraft Client、世吞小助手
+
+作者：[plusls](https://space.bilibili.com/6400543/) 
 
 <details>
 <summary>詳細資料</summary>
@@ -161,7 +196,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 10. [syncmatica](https://modrinth.com/mod/syncmatica "") ^[共享投影] 來自：[EndTech](https://github.com/End-Tech)
+### 10. [syncmatica](https://modrinth.com/mod/syncmatica "")
+
+#### 共享投影
+
+來自：[EndTech](https://github.com/End-Tech)
 
 <details>
 <summary>詳細資料</summary>
@@ -174,7 +213,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 11. [tweakermore](https://modrinth.com/mod/tweakermore "") ^[by.Fallen-Breath] 作者：[Fallen-Breath](https://github.com/Fallen-Breath)
+### 11. [tweakermore](https://modrinth.com/mod/tweakermore "")
+
+#### Tweaker More
+
+作者：[Fallen-Breath](https://github.com/Fallen-Breath)
 
 <details>
 <summary>詳細資料</summary>
@@ -187,7 +230,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 12. [tweakeroo](https://www.curseforge.com/minecraft/mc-mods/tweakeroo "") ^[靈魂出竅] 作者：[masady](https://www.curseforge.com/members/masady/projects)
+### 12. [tweakeroo](https://www.curseforge.com/minecraft/mc-mods/tweakeroo "")
+
+#### 靈魂出竅
+
+作者：[masady](https://www.curseforge.com/members/masady/projects)
 
 <details>
 <summary>詳細資料</summary>
@@ -200,7 +247,11 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 </details>
 
-### 13. [tweakmyclient](https://www.curseforge.com/minecraft/mc-mods/tweakmyclient "") ^[Tweak My Client] 作者：[Hendrix-Shen](https://github.com/Hendrix-Shen)
+### 13. [tweakmyclient](https://www.curseforge.com/minecraft/mc-mods/tweakmyclient "")
+
+#### Tweak My Client
+
+作者：[Hendrix-Shen](https://github.com/Hendrix-Shen)
 
 <details>
 <summary>詳細資料</summary>
