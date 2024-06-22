@@ -268,7 +268,7 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 ## 本倉庫材質包的實現方式
 
-### 最初的工作流程：
+- ### 最初的工作流程：
 
 從模組本身以及其他各處搜刮來的簡體 json 檔案
 
@@ -276,7 +276,7 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 最後再額外替換各種歧異字詞與 MC 的翻譯詞。
 
-### GitHub action
+- ### GitHub action
 
 2024-05-04：
 
@@ -294,7 +294,7 @@ git 指令使用例：
 
 `git push origin release_v_1.20.1`
 
-### 簡轉繁半自動化
+- ### 簡轉繁半自動化
 
 2024-06-21：
 
@@ -310,7 +310,7 @@ git 指令使用例：
 
 已棄用，留作紀錄
 
-### zh_cn to zh_tw dissenting phrases Memo
+- ### zh_cn to zh_tw dissenting phrases Memo
 
 <details>
 
