@@ -25,30 +25,36 @@ jobs:
         id: vars
         run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
 
-      # 提取推送註解並設置環境變量
-      - name: Get push message
+      # 取得標籤的註釋信息，如果註釋不存在，使用預設值
+      - name: Get tag annotation
+        id: tag_annotation
         run: |
-          export PUSH_MESSAGE=$(jq -r '.head_commit.message' $GITHUB_EVENT_PATH)
-          echo "PUSH_MESSAGE=${PUSH_MESSAGE}" >> $GITHUB_ENV
+          TAG_ANNOTATION=$(git tag -l --format='%(contents:subject)' ${{ env.VERSION }} || echo "No annotation exists.")
+          echo "TAG_ANNOTATION=${TAG_ANNOTATION}" >> $GITHUB_ENV
 
       # 建立資源包，排除所有 PNG 文件
       - name: build resources pack
         run: |
-          zip -r Translation-zh_tw-of-masa-series-mods_v${{ env.VERSION }}.zip \
+          zip -r Translation-zh_tw-of-masa-series-mods_${{ env.VERSION }}.zip \
               assets/ \
               pack.mcmeta \
               pack.png \
               README.md \
               -x 'assets/*.png'
 
-      # 上傳並發布資源包
+      # 上傳並發布資源包 這是一個自動RELEASE
       - name: upload
         uses: ncipollo/release-action@v1.14.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "Translation-zh_tw-of-masa-series-mods_v${{ env.VERSION }}.zip"
-          name: "Release v${{ env.VERSION }}"
-          body: "${{ env.PUSH_MESSAGE }}"
+          artifacts: "Translation-zh_tw-of-masa-series-mods_${{ env.VERSION }}.zip"
+          name: "${{ env.VERSION }}"
+          # 在 Release 的描述中包含標籤的註釋，如果註釋不存在，使用預設值或空字符串
+          body: |-
+            ${{env.TAG_ANNOTATION }}
+
+            This is an auto-attachment release.
+
           # 允許更新現有的 Release。如果已經存在一個 Release，其標籤與當前推送的標籤匹配
           # 該 Release 將被更新，而不是創建一個新的 Release。
           allowUpdates: true
