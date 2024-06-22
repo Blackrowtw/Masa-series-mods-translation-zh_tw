@@ -1,3 +1,6 @@
+## Translation-zh_tw-of-masa-series-mods_ST_fox
+![pack-icon](pack.png)
+
     1-5.  來自醉梦巅峰簡中翻譯
     6-11. 來自模組本身簡中翻譯
     12-13.繁中翻譯 by.BK
