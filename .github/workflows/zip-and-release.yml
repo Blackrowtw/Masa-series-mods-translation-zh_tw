@@ -1,32 +1,56 @@
 name: build-Minecraft-resources-pack-And-release
 
-# Controls when the workflow will run
+# 控制工作流何時運行
 on:
-  # Allows you to run this workflow manually from the Actions tab
+  # 允許從 Actions 標籤手動運行此工作流
   workflow_dispatch:
 
   push:
     tags:
       - "release_v_*"
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# 工作流運行由一個或多個可以順序或並行運行的任務組成
 jobs:
-  # This workflow contains a single job calle
+  # 此工作流包含一個名為 "zip-and-release" 的任務
   zip-and-release:
-    # The type of runner that the job will run on
+    # 設定工作運行的環境類型
     runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # 步驟代表作為任務的一部分將被執行的任務序列
     steps:
+      # 檢出最新的代碼到虛擬機器
       - uses: actions/checkout@v4
 
+      # 取得版本號並設置環境變量
+      - name: Set version
+        id: vars
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+      # 提取推送註解並設置環境變量
+      - name: Get push message
+        run: |
+          export PUSH_MESSAGE=$(jq -r '.head_commit.message' $GITHUB_EVENT_PATH)
+          echo "PUSH_MESSAGE=${PUSH_MESSAGE}" >> $GITHUB_ENV
+
+      # 建立資源包，排除所有 PNG 文件
       - name: build resources pack
         run: |
-          zip -r Translation-zh_tw-of-masa-series-mods.zip assets/ pack.mcmeta pack.png mod-list.md
+          zip -r Translation-zh_tw-of-masa-series-mods_v${{ env.VERSION }}.zip \
+              assets/ \
+              pack.mcmeta \
+              pack.png \
+              README.md \
+              -x 'assets/*.png'
 
+      # 上傳並發布資源包
       - name: upload
         uses: ncipollo/release-action@v1.14.0
         with:
-          # allowUpdates: true
-          # removeArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "Translation-zh_tw-of-masa-series-mods.zip"
+          artifacts: "Translation-zh_tw-of-masa-series-mods_v${{ env.VERSION }}.zip"
+          name: "Release v${{ env.VERSION }}"
+          body: "${{ env.PUSH_MESSAGE }}"
+          # 允許更新現有的 Release。如果已經存在一個 Release，其標籤與當前推送的標籤匹配
+          # 該 Release 將被更新，而不是創建一個新的 Release。
+          allowUpdates: true
+          # 在更新 Release 時，先刪除所有舊的附加文件，然後再上傳新的附加文件。
+          removeArtifacts: true
