@@ -1,4 +1,4 @@
-# Translation-zh_tw-of-masa-series-mods
+# Masa-series-mods-translation-zh_tw
 
 ![mod-icon](pack.png)
 

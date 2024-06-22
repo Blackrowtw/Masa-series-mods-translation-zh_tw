@@ -35,7 +35,7 @@ jobs:
       # 建立資源包，排除所有 PNG 文件
       - name: build resources pack
         run: |
-          zip -r Translation-zh_tw-of-masa-series-mods_${{ env.VERSION }}.zip \
+          zip -r Masa-series-mods-translation-zh_tw_${{ env.VERSION }}.zip \
               assets/ \
               pack.mcmeta \
               pack.png \
@@ -47,7 +47,7 @@ jobs:
         uses: ncipollo/release-action@v1.14.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "Translation-zh_tw-of-masa-series-mods_${{ env.VERSION }}.zip"
+          artifacts: "Masa-series-mods-translation-zh_tw_${{ env.VERSION }}.zip"
           name: "${{ env.VERSION }}"
           # 在 Release 的描述中包含標籤的註釋，如果註釋不存在，使用預設值或空字符串
           body: |-
