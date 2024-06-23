@@ -266,6 +266,26 @@ Client Script 客戶端腳本、 ChunkDebug 等功能。
 
 ---
 
+## v1.21 翻譯紀錄 last update: 24.06.23
+
+| 模組名稱 | 版本 | 翻譯紀錄 |
+| --- | --- | --- |
+| EssentialClient | 1.5.2+mc1.21 | BK翻譯 |
+| ExtraPlayerRenderer | 1.21-2.4.1 | 原作者提供、BK簡轉繁 |
+| itemscroller | fabric-1.21-0.23.999-sakura.1 | 醉夢1.20.1、BK簡轉繁、ST_fox修飾 |
+| litematica | fabric-1.21-0.18.999-sakura.4 | 醉夢1.20.1、BK簡轉繁、ST_fox修飾、BK修正了部分 |
+| magiclib | 1.20.4-0.7.398+fe2125a-stable | 原作者提供、BK簡轉繁、ST_fox修飾 |
+| malilib | fabric-1.21-0.19.999-sakura.2 | 醉夢1.20.1、BK簡轉繁、ST_fox修飾 |
+| MasaGadget | 1.20.4-3.2.334+08c8f70-stable | 原作者提供、BK簡轉繁、ST_fox修飾 |
+| minihud | fabric-1.21-0.31.999-sakura.3 | 醉夢1.20.1、BK簡轉繁、ST_fox修飾 |
+| OhMyMinecraftClient | 1.20.4-0.5.332+477abff-beta | 原作者提供、BK簡轉繁、ST_fox修飾 |
+| syncmatica | 1.20.1-0.3.11 | BK翻譯 |
+| tweakermore | mc1.21-v3.19.0 | 原作者提供、BK簡轉繁 |
+| tweakeroo | fabric-1.21-0.20.999-sakura.2 | 醉夢1.20.1、BK簡轉繁 |
+| TweakMyClient | 1.20.4-3.6.414+a05e7bf-stable | 原作者提供、BK簡轉繁、ST_fox修飾 |
+
+---
+
 ## 本倉庫材質包的實現方式
 
 - ### 最初的工作流程：
@@ -303,6 +323,29 @@ git 指令使用例：
 開始製作 JS 小程式，利用 [OpenCC.js](https://github.com/nk2028/opencc-js/blob/main/README-zh-TW.md) 進行簡轉繁半自動化工作
 
 ---
+
+## 自定義辭典
+
+2024-06-22：
+
+利用 OpenCC 自定義辭典的功能
+
+在翻譯轉換過後，最後修正一些奇怪的字詞
+
+```js
+const converterMyOwn = OpenCC.CustomConverter([
+  ["揹包", "背包"],
+  ["臺", "台"],
+  ["映象", "鏡像"],
+  ["繫結", "綁定"],
+  ["公用事業", "公共項目"],
+  ["整型", "整數型"],
+  ["型別", "類型"],
+  ["坐標", "座標"],
+  ["熱鍵", "快捷鍵"],
+  ["介面", "界面"],
+]);
+```
 
 ## 簡轉繁歧異詞備忘錄
 
